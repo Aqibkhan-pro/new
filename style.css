@@ -1,0 +1,55 @@
+#container {
+	padding: 50px;
+}
+header h1 {
+	text-align: center;
+}
+
+.sec1, .sec2, .sec3 {
+	width: 350px;
+	float: left;
+	margin-left: 50px;
+	border: 3px solid black;
+	padding: 0px;
+	background: silver;
+}
+
+.sec1 div h3,
+.sec2 div h3,
+.sec3 div h3 {
+	margin-left: 250px;
+	background: red;
+	color: white;
+	margin-top: 0px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+} 
+
+.sec2 div h3 {
+	background: black;
+}
+.sec3 div h3 {
+	background: yellow;
+}
+
+p {
+	font-family: helvetica;
+}
+
+@media (min-width: 900px) {
+	.sec1, .sec2, .sec3 {
+			
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
